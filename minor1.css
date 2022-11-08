@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    background-color: rgb(194, 201, 155);
+   
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search{
+    width: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    padding: 20px;
+}
+#search>i{
+    font-size: 30px;
+    opacity: 0.5;
+   }
+   #search>h3{
+    opacity: 0.3;
+   }
+#photo1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image:url("https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60") ;
+    margin-right: 10%;
+    background-size: cover;
+}  
+#nav>i{
+    font-size: 30px;
+    color: rgb(116, 92, 36);
+}
+#part1{
+    width: 100%;
+    height: 40%;
+   }
+#text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+#text>h1{
+   margin-left: 12%;
+}
+#center{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0%;
+   
+   }
+#books{
+    margin-left: 1%;
+    width: 32%;
+    height: 90%;
+    background: linear-gradient(rgba(206, 184, 59, 0.733),rgb(229, 235, 147));
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    box-shadow: 3px 3px 10px 0px rgb(46, 46, 41);
+}
+#books-part1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#books-part1>img{
+    width: 70%;
+    height: 85%;
+    object-fit: cover;
+    box-shadow: 2px 2px 20px 0px rgba(32, 40, 11, 0.993);
+}
+
+#books-part2{
+    width: 60%;
+    height: 100%;
+  
+}
+#books-part2 #text2{
+    width: 100%;
+    height: 45%;
+    color: #000;
+    }
+    #books-part2 #text2>h2,h4{
+        margin-left: 2%;
+    }
+#books-part2 #sitara{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+#books-part2 #sitara>i{
+    font-size: 25px;
+    color: rgb(112, 80, 7);
+    margin-left: 2%;
+}
+#books-part2 #photo2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+   
+}
+#books-part2 #photo2 .photu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 2%;
+    position: relative;
+    overflow: hidden;
+}
+#books-part2 #photo2 #last{
+    color: rgb(125, 72, 25);
+    display: flex;
+    align-items: center;
+   background-color: #fff;
+}
+#books-part2 #photo2 .photu>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part2{
+    width: 100%;
+    height: 51.5%;
+    display: flex;
+    position: relative;
+    color: #000;
+}
+#part2-part1{
+    width: 75%;
+    height: 100%;
+   position: relative;
+}
+#text3{
+    width: 100%;
+    height: 35px;
+    color: #000;
+   }
+#text3>h1{
+    margin-top: 20px;
+    margin-left: 130px;
+   
+}
+#kitabe1{
+    width: 100%;
+    height: 38%;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+}
+#pustak{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    
+}
+#pustak-part1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pustak-part1>img{
+    width: 80%;
+    height: 95%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px 0px #000;
+}
+#pustak-part2{
+    width: 60%;
+    height: 100%;
+   }
+#text4{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+#sitara2{
+   width: 100%;
+   height: 50%;
+   padding: 10px;
+}
+#sitara2>i{
+    font-size: 20px;
+    color: rgb(116, 92, 36);
+}
+
+#kitabe2{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    margin-top: 10px;
+}
+
+#part2-part2{
+    width: 25%;
+    height: 100%;
+  
+}
+#part2-part2 >h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#part2-part2 #accund{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#part2-part2 #accund #img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    overflow: hidden;
+}
+#part2-part2 #accund #img1 >img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#part2-part2 #accund >h2{
+    margin-left: 20px;
+}

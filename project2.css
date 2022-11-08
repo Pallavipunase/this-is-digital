@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(229, 241, 241);
+
+    
+}
+#center{
+    
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    height: 80%;
+    width: 80%;
+    /* background-color: blueviolet; */
+}
+.imgcontainer{
+     overflow: hidden; 
+    position: absolute;
+    height: 100%;
+    width:0%;
+     /* background-color: burlywood;  */
+}
+img{
+    
+    height: 100%;
+    
+}
+#one{
+    width: 0%;
+}
+.text{
+    position: absolute;
+    bottom: 15%;
+    left: -10%;
+     overflow: hidden; 
+    width: 400px;
+
+    height: 100px; 
+     /* background-color: brown;  */
+    z-index: 999;
+}
+.text>h1{
+    top: 100px;
+    font-size: 6vw;
+    position: absolute;
+}

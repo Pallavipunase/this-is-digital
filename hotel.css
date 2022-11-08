@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+#louder{
+    height: 100vh;
+    width: 100vw;
+background-color: cadetblue;
+display: flex;
+position: absolute;
+justify-content: space-around;
+}
+#center{
+    height: 30%;
+    width: 20%;
+    /* background-color: red; */
+    margin-top: 15%;
+}
+#center>img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: cover;
+}
+#line1{
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    
+}
+
+#line2{
+    width: 3px;
+    height: 100%;
+    background-color: black;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#left{
+    width: 50%;
+    height: 100%;
+    
+    /* background-color: blue; */
+}
+#lt{
+    height: 50%;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+#nav{
+    
+    height: 20%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#nav>h4{
+    
+    font-size: 10px;
+    font-family: gilroy;
+    font-weight: 100;
+    /* margin-left: 10px; */
+}
+#text{
+height: 30%;
+width: 100%;
+background-color: #dadada;
+}
+#text1>h1{
+    margin-top: 7%;
+margin-left: 5%;
+font-size: 50px;
+font-family: gilroy;
+font-weight: 100;
+line-height: 40px;
+}
+i{
+    font-size: 20px;
+    font-weight: 600;
+}
+#text1>p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: gilroy;
+    font-weight: 100;
+    opacity: .6;
+}
+button{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#lb{
+    height: 50%;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#lb>img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+#right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+#rl{
+    width: 90%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+#rl>img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+#rr{
+    width: 10%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+  
+    
+    justify-content: space-around;
+
+}
+
+
+#rr>h5{
+    transform: rotate(90deg);
+    font-family: gilroy;
+}
